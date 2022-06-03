@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_arrow_back_ios_24"
+        android:title="Item" />
+
+    <item
+        android:id="@+id/menu_forward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:title="Item" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="Refresh" />
+
+    <item
+        android:id="@+id/menu_search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Item"/>
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/menu_downloads"
+        android:title="Downloads"
+        />
+    <item
+        android:id="@+id/menu_about"
+        android:title="About"
+        />
+
+</menu>
